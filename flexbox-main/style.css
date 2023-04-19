@@ -59,6 +59,36 @@ hr {
     border-radius: 16px;
 }
 
+.bloco-1-baseline {
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-baseline {
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-baseline {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 49px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
 .bloco-1-sem-altura {
     background-color: lightblue;
 
@@ -234,6 +264,17 @@ hr {
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-alignitems-baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
     /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
