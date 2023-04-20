@@ -305,3 +305,16 @@ hr {
     background-color: #f9eac3;
     padding: 16px;
     height: 500px;
+}
+
+.container-flexwrap-reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
