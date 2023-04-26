@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
 
+
+
+.titulo-pagina {
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: darkblue;
+    margin: 10px;
+}
+
 .menu-navegacao {
     width: 80%;
     margin: auto;
@@ -30,15 +41,6 @@
   
 hr {
     margin: 15px;
-}
-
-.titulo-pagina {
-    font-style: italic;
-    font-size: 3em;
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif;
-    color: darkblue;
-    margin: 10px;
 }
 
 .nome-da-propriedade {
