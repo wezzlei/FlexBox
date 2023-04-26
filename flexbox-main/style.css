@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
 
+.menu-navegacao {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .menu-navegacao ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .menu-navegacao li {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;   
+    
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .menu-navegacao a:hover{
+      background-color: cyan
+  }
+  
 hr {
     margin: 15px;
 }
@@ -327,6 +355,60 @@ hr {
     /*flex-wrap: wrap-reverse;*/
     flex-flow: row nowrap;
     /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-center {
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: center;  
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-start {
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: flex-start;  
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-end {
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: flex-end;  
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-between {
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: space-between;  
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-around {
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: space-around;  
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-evenly {
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: space-evenly;  
     background-color: #f9eac3;
     padding: 16px;
     height: 500px;
